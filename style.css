@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-group input{
+    background-color: #1f1818;
+    color: aliceblue;
+    height: 50px;
+    width: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    transition: .5s;
+}
+
+.form-group input:hover{
+    cursor: pointer;
+    scale: 1.1;
+    border: 2px solid  #1f1818;
+    border-radius: 5px;
+}
+
+#item_list{
+    background-color: #d37777;
+}
+
+.list{
+    margin-top: 20px;
+    padding-top: 20px;
+}
